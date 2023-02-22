@@ -12,7 +12,7 @@ export const pool = mysql
   .createPool({
     host: '127.0.0.1',
     user: 'root',
-    password: 'csp8520', // replace password 'YOUR_PASSWORD_HERE'
+    password: 'YOUR_PASSWORD_HERE',
     database: 'proj_public_services',
   })
   .promise()
